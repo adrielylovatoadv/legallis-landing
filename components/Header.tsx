@@ -17,10 +17,10 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="/login" className="text-sm text-gray-400 hover:text-white transition-colors px-4 py-2">
+          <a href="https://app.legallis.app.br/login" className="text-sm text-gray-400 hover:text-white transition-colors px-4 py-2">
             Entrar
           </a>
-          <a href="/cadastro" className="text-sm bg-[#C9A84C] hover:bg-[#B8973B] text-black font-semibold px-5 py-2 rounded-lg transition-colors">
+          <a href="https://app.legallis.app.br/login" className="text-sm bg-[#C9A84C] hover:bg-[#B8973B] text-black font-semibold px-5 py-2 rounded-lg transition-colors">
             Testar grátis
           </a>
         </div>
@@ -43,8 +43,8 @@ export default function Header() {
           <a href="#funcionalidades" className="text-gray-400 text-sm">Funcionalidades</a>
           <a href="#modulos" className="text-gray-400 text-sm">Módulos</a>
           <a href="#planos" className="text-gray-400 text-sm">Planos</a>
-          <a href="/login" className="text-gray-400 text-sm">Entrar</a>
-          <a href="/cadastro" className="bg-[#C9A84C] text-black text-sm font-semibold px-4 py-2 rounded-lg text-center">
+          <a href="https://app.legallis.app.br/login" className="text-gray-400 text-sm">Entrar</a>
+          <a href="https://app.legallis.app.br/login" className="bg-[#C9A84C] text-black text-sm font-semibold px-4 py-2 rounded-lg text-center">
             Testar grátis
           </a>
         </div>
