@@ -10,7 +10,7 @@ export default function CTA() {
             4 dias grátis, sem cartão de crédito. Comece agora.
           </p>
           <a
-            href="https://app.legallis.app.br/login"
+            href="https://app.legallis.app.br/cadastro/gratis"
             className="inline-flex items-center bg-[#C9A84C] hover:bg-[#B8973B] text-black font-semibold px-8 py-4 rounded-lg text-base transition-colors"
           >
             Criar minha conta grátis
