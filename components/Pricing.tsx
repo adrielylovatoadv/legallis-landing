@@ -46,7 +46,7 @@ const plans = [
     trial: "Sem período de teste · cobrança imediata",
     hasTrial: false,
     features: [
-      "1 admin + usuários ilimitados",
+      "1 admin + até 20 usuários",
       "Até 5.000 processos cadastrados",
       "Todos os módulos",
       "Calculadora Jurídica (TJMG/TJSP)",
