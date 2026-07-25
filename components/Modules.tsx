@@ -7,7 +7,7 @@ const modules = [
   },
   {
     icon: "💼",
-    title: "Financeiro do Escritório",
+    title: "Financeiro",
     desc: "Gerencie honorários, repasses e fluxo de caixa. Saiba exatamente quanto o escritório tem a receber e a pagar.",
     items: ["Controle de honorários por processo", "Repasses entre sócios", "Fluxo de caixa detalhado", "Relatórios financeiros"],
   },
@@ -16,6 +16,24 @@ const modules = [
     title: "Calculadora Jurídica",
     desc: "Calcule correção monetária, juros e valores de acordos com as tabelas oficiais dos tribunais.",
     items: ["Índice TJMG (Tribunal de Justiça de MG)", "Índice TJSP (Tribunal de Justiça de SP)", "Juros simples e compostos", "Exportação dos cálculos"],
+  },
+  {
+    icon: "📅",
+    title: "Calculadora de Prazos",
+    desc: "Calcule prazos processuais automaticamente considerando feriados e o recesso forense.",
+    items: ["Cálculo automático de prazos processuais", "Feriados nacionais e forenses", "Recesso forense (20/dez a 20/jan)", "Exportação em PDF"],
+  },
+  {
+    icon: "📰",
+    title: "Publicações",
+    desc: "Capture publicações e intimações automaticamente por OAB, direto da fonte oficial do CNJ.",
+    items: ["Busca de publicações por OAB", "Vínculo automático a processos", "Marcação de tratada/pendente", "Fonte oficial DJEN/CNJ"],
+  },
+  {
+    icon: "🗂️",
+    title: "Kanban",
+    desc: "Organize as tarefas do escritório em quadro visual, do planejamento à conclusão.",
+    items: ["Quadro A Fazer · Fazendo · Concluído", "Atribuição de responsáveis", "Prazos por tarefa", "Arraste e solte entre colunas"],
   },
 ];
 
@@ -30,7 +48,7 @@ export default function Modules() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {modules.map((m) => (
             <div
               key={m.title}

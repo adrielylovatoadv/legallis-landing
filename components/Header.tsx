@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#0F0F0F]/90 backdrop-blur-md border-b border-[#C9A84C]/20">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Image src="/logo.png" alt="Legallis" width={220} height={66} className="object-contain" priority />
+        <Image src="/logo.png" alt="Legarium" width={220} height={76} className="object-contain" priority />
 
         <nav className="hidden md:flex items-center gap-8 text-sm text-gray-400">
           <a href="#funcionalidades" className="hover:text-[#C9A84C] transition-colors">Funcionalidades</a>

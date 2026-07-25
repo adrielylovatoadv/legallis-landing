@@ -5,32 +5,31 @@ const plans = [
     name: "Básico",
     price: "97",
     period: "/mês · cobrado mensalmente",
-    trial: "4 dias grátis · sem cartão de crédito",
+    trial: "7 dias grátis · sem cartão de crédito",
     hasTrial: true,
     features: [
       "1 admin + até 2 usuários",
-      "Até 80 processos cadastrados",
+      "Até 100 processos cadastrados",
       "Controle Processual completo",
-      "Calculadora Jurídica (TJMG/TJSP)",
+      "Calculadora Jurídica e de Prazos",
       "Export em PDF",
     ],
-    disabled: ["Financeiro do escritório", "Export Word e Excel"],
-    cta: "Testar grátis por 4 dias",
+    disabled: ["Financeiro, Publicações e Kanban", "Export Word e Excel"],
+    cta: "Testar grátis por 7 dias",
     ctaStyle: "outline",
     highlight: false,
   },
   {
-    name: "Profissional",
+    name: "Pro",
     price: "197",
     period: "/mês · cobrado mensalmente",
     trial: "Sem período de teste · cobrança imediata",
     hasTrial: false,
     features: [
-      "1 admin + até 4 usuários",
-      "Até 200 processos cadastrados",
-      "Todos os módulos",
-      "Calculadora Jurídica (TJMG/TJSP)",
-      "Financeiro completo",
+      "1 admin + até 6 usuários",
+      "Até 400 processos cadastrados",
+      "Todos os módulos (Financeiro, Publicações, Kanban)",
+      "Calculadora Jurídica e de Prazos",
       "Export PDF, Word e Excel",
       "Suporte por e-mail",
     ],
@@ -40,16 +39,15 @@ const plans = [
     highlight: true,
   },
   {
-    name: "Pro",
+    name: "Profissional",
     price: "347",
     period: "/mês · cobrado mensalmente",
     trial: "Sem período de teste · cobrança imediata",
     hasTrial: false,
     features: [
       "1 admin + até 20 usuários",
-      "Até 5.000 processos cadastrados",
-      "Todos os módulos",
-      "Calculadora Jurídica (TJMG/TJSP)",
+      "Até 3.000 processos cadastrados",
+      "Todos os módulos + Indicadores e Auditoria",
       "Export PDF, Word e Excel",
       "Suporte prioritário",
       "Onboarding incluso",
@@ -118,7 +116,7 @@ export default function Pricing() {
               </ul>
 
               <a
-                href="/cadastro"
+                href={p.hasTrial ? "https://app.legallis.app.br/cadastro/gratis" : "https://app.legallis.app.br/cadastro"}
                 className={`w-full text-center py-3 rounded-lg font-semibold text-sm transition-colors ${
                   p.ctaStyle === "gold"
                     ? "bg-[#C9A84C] hover:bg-[#B8973B] text-black"

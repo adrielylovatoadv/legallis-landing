@@ -7,7 +7,7 @@ export default function CTA() {
             Pronto para organizar<br />seu escritório?
           </h2>
           <p className="text-gray-400 mb-8 text-lg">
-            4 dias grátis, sem cartão de crédito. Comece agora.
+            7 dias grátis, sem cartão de crédito. Comece agora.
           </p>
           <a
             href="https://app.legallis.app.br/cadastro/gratis"

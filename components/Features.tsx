@@ -26,9 +26,9 @@ export default function Features() {
     <section id="funcionalidades" className="py-24 px-6 bg-[#141414]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-[#C9A84C] text-sm tracking-widest uppercase mb-3">Por que o Legallis</p>
+          <p className="text-[#C9A84C] text-sm tracking-widest uppercase mb-3">Por que o Legarium</p>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold">
-            Sistema de gestão para a rotina real<br />da advocacia cível e consumerista
+            Software jurídico e financeiro para a rotina real<br />da advocacia
           </h2>
         </div>
 

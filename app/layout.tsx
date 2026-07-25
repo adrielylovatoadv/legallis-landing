@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Legallis — Gestão Jurídica & Financeira",
-  description: "Software jurídico completo para advogados e escritórios de advocacia. Controle processual, financeiro e calculadora jurídica em um só lugar.",
+  title: "Legarium — Software Jurídico & Financeiro",
+  description: "Software jurídico e financeiro completo para advogados e escritórios de advocacia. Controle processual, financeiro, calculadoras, publicações e kanban em um só lugar.",
 };
 
 export default function RootLayout({
