@@ -116,7 +116,7 @@ export default function Pricing() {
               </ul>
 
               <a
-                href={p.hasTrial ? "https://app.legallis.app.br/cadastro/gratis" : "https://app.legallis.app.br/cadastro"}
+                href={p.hasTrial ? "https://app.legarium.app.br/cadastro/gratis" : "https://app.legarium.app.br/cadastro"}
                 className={`w-full text-center py-3 rounded-lg font-semibold text-sm transition-colors ${
                   p.ctaStyle === "gold"
                     ? "bg-[#C9A84C] hover:bg-[#B8973B] text-black"

@@ -22,7 +22,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://app.legallis.app.br/cadastro/gratis"
+            href="https://app.legarium.app.br/cadastro/gratis"
             className="inline-flex items-center justify-center bg-[#C9A84C] hover:bg-[#B8973B] text-black font-semibold px-8 py-4 rounded-lg text-base transition-colors"
           >
             Começar grátis por 7 dias — sem cartão
