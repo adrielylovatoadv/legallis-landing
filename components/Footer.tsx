@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-white/5 py-10 px-6 bg-[#0F0F0F]">
+    <footer className="border-t border-white/5 py-10 px-6 bg-bg">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <span className="font-serif text-lg text-[#C9A84C] tracking-widest font-semibold">
+        <span className="font-serif text-lg text-gold tracking-widest font-semibold">
           LEGARIUM
         </span>
         <p className="text-gray-600 text-sm">

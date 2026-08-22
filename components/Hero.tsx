@@ -1,18 +1,18 @@
 export default function Hero() {
   return (
     <section className="pt-32 pb-24 px-6 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-[#C9A84C]/5 via-transparent to-transparent pointer-events-none" />
-      <div className="absolute top-40 right-0 w-96 h-96 bg-[#C9A84C]/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-br from-gold/5 via-transparent to-transparent pointer-events-none" />
+      <div className="absolute top-40 right-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-4xl mx-auto relative text-center">
-        <div className="inline-flex items-center gap-2 bg-[#C9A84C]/10 border border-[#C9A84C]/30 rounded-full px-4 py-1.5 text-xs text-[#C9A84C] mb-8">
-          <span className="w-1.5 h-1.5 bg-[#C9A84C] rounded-full" />
+        <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-1.5 text-xs text-gold mb-8">
+          <span className="w-1.5 h-1.5 bg-gold rounded-full" />
           Software jurídico e financeiro para a rotina real da advocacia
         </div>
 
         <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight mb-6">
           Gestão jurídica e financeira{" "}
-          <span className="text-[#C9A84C]">em um só lugar</span>
+          <span className="text-gold">em um só lugar</span>
         </h1>
 
         <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="https://app.legarium.app.br/cadastro/gratis"
-            className="inline-flex items-center justify-center bg-[#C9A84C] hover:bg-[#B8973B] text-black font-semibold px-8 py-4 rounded-lg text-base transition-colors"
+            className="inline-flex items-center justify-center bg-gold hover:bg-gold-dark text-black font-semibold px-8 py-4 rounded-lg text-base transition-colors"
           >
             Começar grátis por 7 dias — sem cartão
           </a>
@@ -41,7 +41,7 @@ export default function Hero() {
         <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-sm text-gray-500">
           {["Controle processual completo", "Gestão financeira integrada", "Calculadoras jurídicas", "Publicações e Kanban"].map((item) => (
             <div key={item} className="flex items-center gap-2">
-              <svg className="w-4 h-4 text-[#C9A84C]" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
               {item}

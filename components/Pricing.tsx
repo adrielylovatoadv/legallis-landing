@@ -61,10 +61,10 @@ const plans = [
 
 export default function Pricing() {
   return (
-    <section id="planos" className="py-24 px-6 bg-[#141414]">
+    <section id="planos" className="py-24 px-6 bg-surface">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-[#C9A84C] text-sm tracking-widest uppercase mb-3">Planos</p>
+          <p className="text-gold text-sm tracking-widest uppercase mb-3">Planos</p>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold mb-4">
             Simples e transparente
           </h2>
@@ -76,34 +76,34 @@ export default function Pricing() {
               key={p.name}
               className={`rounded-2xl p-8 border flex flex-col relative ${
                 p.highlight
-                  ? "bg-[#1E1A0E] border-[#C9A84C]/50"
-                  : "bg-[#1A1A1A] border-white/5"
+                  ? "bg-gold-tint border-gold/50"
+                  : "bg-surface2 border-white/5"
               }`}
             >
               {p.highlight && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#C9A84C] text-black text-xs font-bold px-4 py-1 rounded-full tracking-widest">
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold text-black text-xs font-bold px-4 py-1 rounded-full tracking-widest">
                   MAIS POPULAR
                 </div>
               )}
 
-              <p className={`text-xs tracking-widest uppercase mb-4 ${p.highlight ? "text-[#C9A84C]" : "text-gray-500"}`}>
+              <p className={`text-xs tracking-widest uppercase mb-4 ${p.highlight ? "text-gold" : "text-gray-500"}`}>
                 {p.name}
               </p>
 
               <div className="mb-1">
-                <span className={`text-4xl font-bold ${p.highlight ? "text-[#C9A84C]" : "text-white"}`}>
+                <span className={`text-4xl font-bold ${p.highlight ? "text-gold" : "text-white"}`}>
                   R$ {p.price}
                 </span>
               </div>
               <p className="text-gray-500 text-xs mb-2">{p.period}</p>
-              <p className={`text-xs mb-8 ${p.hasTrial ? "text-[#C9A84C]" : "text-gray-600"}`}>
+              <p className={`text-xs mb-8 ${p.hasTrial ? "text-gold" : "text-gray-600"}`}>
                 {p.hasTrial ? `✦ ${p.trial}` : p.trial}
               </p>
 
               <ul className="space-y-3 mb-8 flex-1">
                 {p.features.map((f) => (
                   <li key={f} className="flex items-center gap-2 text-sm text-gray-300">
-                    <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${p.highlight ? "bg-[#C9A84C]" : "bg-[#C9A84C]"}`} />
+                    <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 bg-gold" />
                     {f}
                   </li>
                 ))}
@@ -119,8 +119,8 @@ export default function Pricing() {
                 href={p.hasTrial ? "https://app.legarium.app.br/cadastro/gratis" : "https://app.legarium.app.br/cadastro"}
                 className={`w-full text-center py-3 rounded-lg font-semibold text-sm transition-colors ${
                   p.ctaStyle === "gold"
-                    ? "bg-[#C9A84C] hover:bg-[#B8973B] text-black"
-                    : "border border-white/15 hover:border-white/30 text-[#C9A84C] hover:text-[#C9A84C]"
+                    ? "bg-gold hover:bg-gold-dark text-black"
+                    : "border border-white/15 hover:border-white/30 text-gold"
                 }`}
               >
                 {p.cta}

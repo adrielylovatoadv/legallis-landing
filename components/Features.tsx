@@ -23,10 +23,10 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="funcionalidades" className="py-24 px-6 bg-[#141414]">
+    <section id="funcionalidades" className="py-24 px-6 bg-surface">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-[#C9A84C] text-sm tracking-widest uppercase mb-3">Por que o Legarium</p>
+          <p className="text-gold text-sm tracking-widest uppercase mb-3">Por que o Legarium</p>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold">
             Software jurídico e financeiro para a rotina real<br />da advocacia
           </h2>
@@ -36,7 +36,7 @@ export default function Features() {
           {features.map((f) => (
             <div
               key={f.title}
-              className="bg-[#1A1A1A] border border-white/5 rounded-xl p-6 hover:border-[#C9A84C]/30 transition-colors"
+              className="bg-surface2 border border-white/5 rounded-xl p-6 hover:border-gold/30 transition-colors"
             >
               <div className="text-3xl mb-4">{f.icon}</div>
               <h3 className="font-semibold text-white mb-2">{f.title}</h3>

@@ -2,7 +2,7 @@ export default function CTA() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-3xl mx-auto text-center">
-        <div className="bg-gradient-to-br from-[#C9A84C]/10 to-transparent border border-[#C9A84C]/20 rounded-3xl p-12">
+        <div className="bg-gradient-to-br from-gold/10 to-transparent border border-gold/20 rounded-3xl p-12">
           <h2 className="font-serif text-4xl md:text-5xl font-semibold mb-4">
             Pronto para organizar<br />seu escritório?
           </h2>
@@ -11,7 +11,7 @@ export default function CTA() {
           </p>
           <a
             href="https://app.legarium.app.br/cadastro/gratis"
-            className="inline-flex items-center bg-[#C9A84C] hover:bg-[#B8973B] text-black font-semibold px-8 py-4 rounded-lg text-base transition-colors"
+            className="inline-flex items-center bg-gold hover:bg-gold-dark text-black font-semibold px-8 py-4 rounded-lg text-base transition-colors"
           >
             Criar minha conta grátis
           </a>
