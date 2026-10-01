@@ -20,9 +20,6 @@ export default function Header() {
           <a href="https://app.legarium.app.br/login" className="text-sm text-gray-400 hover:text-white transition-colors px-4 py-2">
             Entrar
           </a>
-          <a href="https://app.legarium.app.br/cadastro/gratis" className="text-sm bg-gold hover:bg-gold-dark text-black font-semibold px-5 py-2 rounded-lg transition-colors">
-            Testar grátis
-          </a>
         </div>
 
         <button
@@ -44,9 +41,6 @@ export default function Header() {
           <a href="#modulos" className="text-gray-400 text-sm">Módulos</a>
           <a href="#planos" className="text-gray-400 text-sm">Planos</a>
           <a href="https://app.legarium.app.br/login" className="text-gray-400 text-sm">Entrar</a>
-          <a href="https://app.legarium.app.br/cadastro/gratis" className="bg-gold text-black text-sm font-semibold px-4 py-2 rounded-lg text-center">
-            Testar grátis
-          </a>
         </div>
       )}
     </header>

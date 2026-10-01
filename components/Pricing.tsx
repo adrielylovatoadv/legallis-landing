@@ -5,8 +5,8 @@ const plans = [
     name: "Básico",
     price: "97",
     period: "/mês · cobrado mensalmente",
-    trial: "7 dias grátis · sem cartão de crédito",
-    hasTrial: true,
+    trial: "",
+    hasTrial: false,
     features: [
       "1 admin + até 2 usuários",
       "Até 100 processos cadastrados",
@@ -15,7 +15,7 @@ const plans = [
       "Export em PDF",
     ],
     disabled: ["Financeiro, Publicações e Kanban", "Export Word e Excel"],
-    cta: "Testar grátis por 7 dias",
+    cta: "Em breve",
     ctaStyle: "outline",
     highlight: false,
   },
@@ -34,7 +34,7 @@ const plans = [
       "Suporte por e-mail",
     ],
     disabled: [],
-    cta: "Assinar agora",
+    cta: "Em breve",
     ctaStyle: "gold",
     highlight: true,
   },
@@ -53,7 +53,7 @@ const plans = [
       "Onboarding incluso",
     ],
     disabled: [],
-    cta: "Assinar agora",
+    cta: "Em breve",
     ctaStyle: "outline",
     highlight: false,
   },
@@ -115,16 +115,9 @@ export default function Pricing() {
                 ))}
               </ul>
 
-              <a
-                href={p.hasTrial ? "https://app.legarium.app.br/cadastro/gratis" : "https://app.legarium.app.br/cadastro"}
-                className={`w-full text-center py-3 rounded-lg font-semibold text-sm transition-colors ${
-                  p.ctaStyle === "gold"
-                    ? "bg-gold hover:bg-gold-dark text-black"
-                    : "border border-white/15 hover:border-white/30 text-gold"
-                }`}
-              >
+              <span className="w-full text-center py-3 rounded-lg font-semibold text-sm border border-white/15 text-gray-500 cursor-default">
                 {p.cta}
-              </a>
+              </span>
             </div>
           ))}
         </div>

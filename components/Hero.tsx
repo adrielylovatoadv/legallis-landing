@@ -21,12 +21,9 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="https://app.legarium.app.br/cadastro/gratis"
-            className="inline-flex items-center justify-center bg-gold hover:bg-gold-dark text-black font-semibold px-8 py-4 rounded-lg text-base transition-colors"
-          >
-            Começar grátis por 7 dias — sem cartão
-          </a>
+          <span className="inline-flex items-center justify-center bg-gold/20 border border-gold/30 text-gold font-semibold px-8 py-4 rounded-lg text-base cursor-default">
+            Em breve
+          </span>
           <a
             href="#modulos"
             className="inline-flex items-center justify-center border border-white/10 hover:border-white/20 text-gray-300 hover:text-white px-8 py-4 rounded-lg text-base transition-colors gap-2"

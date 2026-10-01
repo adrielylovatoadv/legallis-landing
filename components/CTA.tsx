@@ -7,14 +7,11 @@ export default function CTA() {
             Pronto para organizar<br />seu escritório?
           </h2>
           <p className="text-gray-400 mb-8 text-lg">
-            7 dias grátis, sem cartão de crédito. Comece agora.
+            Em breve, o Legarium estará disponível para novos escritórios.
           </p>
-          <a
-            href="https://app.legarium.app.br/cadastro/gratis"
-            className="inline-flex items-center bg-gold hover:bg-gold-dark text-black font-semibold px-8 py-4 rounded-lg text-base transition-colors"
-          >
-            Criar minha conta grátis
-          </a>
+          <span className="inline-flex items-center bg-gold/20 border border-gold/30 text-gold font-semibold px-8 py-4 rounded-lg text-base cursor-default">
+            Em breve
+          </span>
         </div>
       </div>
     </section>
